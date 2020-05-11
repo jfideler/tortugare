@@ -1,4 +1,38 @@
-.App {
+h4 {
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+.box {
+		background-color: #F8F8FF;
+    padding-left:5px;
+		font-size: 16px;
+	}
+.border { border: 5px solid black; }
+.row {margin-left: 0px;}
+
+.container {
+  padding: 0px 0px;
+  width: 970px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.linkedIn-image {
+  margin: 0px 60px 25px 0px;
+  width: 100%;
+}
+
+.ipsum-text {
+  height: 485px;
+}
+
+.btn-link {
+  border: none;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +69,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

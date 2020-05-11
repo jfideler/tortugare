@@ -1,8 +1,44 @@
 body {
-	font-family: "roboto","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-	background-color:#ffffff;
-	width:100%;
-	height:100%;
+  font-family: "roboto", "proxima-nova", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  background-color: #ffffff;
+  width: 90%;
+  height: 90%;
 }
 
-.row {margin-left: 0px;}
+h4 {
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+.box {
+  background-color: #f8f8ff;
+  padding-left: 5px;
+  font-size: 16px;
+}
+.border {
+  border: 5px solid black;
+}
+.row {
+  margin-left: 0px;
+}
+
+.container {
+  padding: 0px 0px;
+  width: 870px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.linkedIn-image {
+  margin: 0px 60px 25px 0px;
+  width: 100%;
+}
+
+.ipsum-text {
+  height: 485px;
+}
+
+.btn-link {
+  border: none;
+}

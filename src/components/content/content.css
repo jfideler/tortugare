@@ -23,20 +23,20 @@
 
   /* SCROLL BAR */
   /* width */
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
     width: .75em;
-  }
+  } */
   
   /* Track */
-  ::-webkit-scrollbar-track {
+  /* ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
-  }
+  } */
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+  /* ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #F82B30;
   outline: 1px solid slategrey;
   }
-  
+   */
