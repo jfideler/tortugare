@@ -1,0 +1,42 @@
+
+.container{
+    width: 970px;
+  }
+  
+  .tweet-feed {
+    /* overflow: "scroll"; */
+    height: 575px;
+    margin-top: 10px;
+    width: 200px;
+    float: right;
+  }
+  
+  .tweet-feed-not {
+    margin: 24px;
+    color: #F82B30;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #d2d2d2;
+    box-shadow: 0 0 3px black;
+}
+
+  /* SCROLL BAR */
+  /* width */
+  ::-webkit-scrollbar {
+    width: .75em;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #F82B30;
+  outline: 1px solid slategrey;
+  }
+  
