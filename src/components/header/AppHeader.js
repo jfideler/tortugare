@@ -1,6 +1,6 @@
 import React from 'react';
-import './AppHeader.css';
-import AppTopNav from './topNav/AppTopNav';
+import './appHeader.css';
+import AppTopNav from './topNav/appTopNav';
 
 function AppHeader(){
   return (

@@ -1,15 +1,17 @@
 import React from 'react';
-import './AppTopNav.css';
+import './appTopNav.css';
+import { Link } from 'react-router-dom'
 
+const tortugaUrl = 'http://www.tortugadesign.com/#/';
 function AppTopNav() {
     return (
         <div class="page-header">
             <div class="btn-group btn-group-lg top-nav" role="group">
-                <a alt="" href="/content" class="btn-who btn lg" role="button">!who:</a>
-                <a alt="" href="/what" class="btn-what btn lg" role="button">!what:</a>
-                <a alt="" href="/why" class="btn-why btn lg" role="button">!why:</a>
-                <a alt="" href="/how" class="btn-how btn lg" role="button">!how:</a>
-                <a alt="" href="/where" class="btn-where btn lg" role="button">!where:</a>
+                <Link to="/content" class="btn-who btn lg" role="button">!who:</Link>
+                <a class="btn-what btn lg" role="button" href = {`${tortugaUrl}what`}>!what:</a>
+                <a class="btn-why btn lg" role="button" href={`${tortugaUrl}why`}>!why:</a>
+                <a class="btn-how btn lg" role="button" href={`${tortugaUrl}how`}>!how:</a>
+                <Link to="/where" class="btn-where btn lg" role="button">!where:</Link>
             </div>
         </div>
     );

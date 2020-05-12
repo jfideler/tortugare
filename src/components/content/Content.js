@@ -1,6 +1,10 @@
 import React from 'react';
 import './content.css';
 
+function goAngularUrl() {
+  return "http://www.tortugadesign.com";
+}
+
 function Content(){
   return (
     <div>
@@ -23,7 +27,7 @@ function Content(){
     <a target="_blank" rel="noopener noreferrer" href="http://www.angular.io"
       >Angular 9.x <img alt="" src="assets/images/ng-logo.png" width="20"
     /></a>
-    framework, checkout the <a href = "{{goReactUrl()}}">[Angular Version] </a> this site.
+    framework, checkout the <a href = {goAngularUrl()}>[Angular Version] </a> this site.
     <br /><br />
     <div>
       <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jfideler/">
